@@ -1,0 +1,10 @@
+#banner{
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid #666;
+}
+#banner img{
+    width: 205px;
+    height: 154px;
+    display: inline-block;
+}

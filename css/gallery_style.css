@@ -1,0 +1,50 @@
+.img-circle{
+    height: 10%;
+    width: 25%;
+    border:solid;
+
+    transition: all 1s;
+}
+
+.img-rounded{
+    height: 10%;
+    width: 25%;
+    border:solid;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-size: cover;
+
+    transition: all 2s;
+}
+
+.img-thumbnail{
+    height: 10%;
+    width: 25%;
+    border:solid;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+    transform: rotate(-30deg) scale(1);
+
+}
+
+
+.img-circle:hover{
+    z-index: 2;
+    transform: scale(2);
+}
+
+.img-rounded:hover{
+    z-index: 3;
+    transform: scale(2);
+
+}
+
+.img-thumbnail:hover{
+    transform: rotate(-360deg) scale(.5);
+}
+
